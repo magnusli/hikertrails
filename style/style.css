@@ -1,0 +1,255 @@
+body {
+
+	background-color: #272726;
+	height:100%
+}
+
+h1
+{
+	font-family: 'Open Sans', 'sans-serif';
+	font-weight:normal;
+	font-size: 44px;
+	color:#424242;
+}
+
+h2
+{
+	font-family: 'Open Sans', 'sans-serif';
+	font-weight:normal;
+	font-size: 30px;
+	color:#424242;
+}
+
+p
+{
+	font-family: 'Open Sans', 'sans-serif';
+	font-size:20px;
+	color:#0C151D;
+}
+
+pO
+{
+	font-family: 'Open Sans', 'sans-serif';
+	font-size:24px;
+	color:#0C151D;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link {color:#0C151D;}      /* unvisited link */
+a:visited {color:#0C151D;}  /* visited link */
+a:hover {color:#0C151D;}  /* mouse over link */
+a:active {color:#0C151D;}  /* selected link */
+
+cmnt
+{
+	font-family: 'Open Sans', 'sans-serif';
+	font-size:15px;
+	color:#0C151D;
+	
+}
+
+trailListTitle
+{
+	font-family: 'Open Sans', 'sans-serif';
+	font-size:21px;
+	color:#0C151D;
+}
+
+stats
+{
+	font-family: 'Open Sans', 'sans-serif';
+	font-size:22px;
+	color:#0C151D;
+}
+
+#mainForm {
+	
+	position: relative;
+	width: 960px;
+	min-height:1100px;
+	/*margin-top: 50px;*/
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f4f4f4;
+	border-style:solid;
+	border-width:0px;
+	border-radius:0px;
+	
+}
+
+
+
+#mainLogo {
+	position: relative;
+	float:left;
+}
+
+#mainHead {
+	position:relative;
+	width:98%;
+	height:150px;
+	margin-left:5px;
+	
+}
+
+
+#headSeperator {
+	margin-top: 30px;
+	padding-top: 10px;
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background-color: #272726;
+	text-align:center;
+	font-family:"Century Gothic";
+	font-size:28px;
+	color: #f4f4f4;
+}
+
+#headSeperatorSmall {
+	margin-top: 30px;
+	padding-top: 10px;
+	position: relative;
+	height: 12px;
+	width: 100%;
+	background-color: #272726;
+}
+
+#search {
+	position:relative;
+	float:right;
+	width: 40%;
+	margin-top:60px;
+	text-align:right;
+}
+
+#mainSearch {
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+}
+
+#mainMenu {
+	position: relative;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	
+}
+
+#mainMenuLeftItem {
+	
+	position: relative;
+	float: left;
+	border-radius:1%;
+	width: 45%;
+	height: 130px;
+	margin-top: 5%;
+	padding-top:30px;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #a33f44;
+	text-align:center;
+	font-family:"Century Gothic";
+	font-size:70px;
+	color: #f4f4f4;
+	text-decoration: none;
+}
+
+#mainMenuRightItem {
+	
+	position: relative;
+	float: left;
+	border-radius:1%;
+	width: 45%;
+	height: 130px;
+	margin-top: 5%;
+	padding-top:30px;
+	margin-left: 5%;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #a33f44;
+	text-align:center;
+	font-family:"Century Gothic";
+	font-size:70px;
+	color: #f4f4f4;
+	text-decoration: none;
+}
+
+#trailTitle {
+	position:reltive;
+	float: left;
+	margin-left: 15px;
+	width:98%;
+	
+}
+
+#trailInfo{
+	position:relative;
+	float: left;
+	width: 48%;
+	margin-left: 20px;
+	
+}
+
+#trailRating {
+	position:realtive;
+	float:left;
+	width:45%;
+
+
+}
+
+#trailFacebook {
+	position:relative;
+	float:right;
+	width:30%;
+	margin-top:3px;
+
+
+}
+
+#trailPicture {
+	position:relative;
+	float: right;
+	width: 45%;
+	
+}
+
+#trailComments {
+	position:relative;
+	float: right;
+	margin-top: 20px;
+	margin-right:20px;
+	margin-bottom: 20px;
+	width: 43%;
+}
+
+#trailListItem {
+	margin-top:25px;
+	position:relative;
+	width: 98%;
+	min-height:250px;
+	margin-left:7px;
+	border-style:solid;
+	border-width:0px;
+	
+}
+
+#trailListText {
+	position:relative;
+	float:left;
+	width:60%;
+	margin-left:25px;
+}
+
+#trailListPicture {
+	position:relative;
+	float:right;
+	width:35%;
+}
